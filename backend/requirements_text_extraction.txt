@@ -1,0 +1,27 @@
+# Text Extraction Service Dependencies
+# Core OCR libraries
+
+# Tesseract OCR (for printed text)
+pytesseract>=0.3.10
+
+# EasyOCR (for general text recognition)
+easyocr>=1.7.0
+
+# TrOCR (for handwritten text)
+transformers>=4.30.0
+torch>=2.0.0
+
+# Image processing
+opencv-python>=4.8.0
+Pillow>=9.0.0
+numpy>=1.24.0
+
+# Optional: For better performance
+# torchvision>=0.15.0  # If using GPU acceleration
+# onnxruntime>=1.15.0  # For ONNX model inference
+
+# Note: You may also need to install Tesseract system package:
+# Windows: Download from https://github.com/UB-Mannheim/tesseract/wiki
+# macOS: brew install tesseract
+# Ubuntu/Debian: sudo apt-get install tesseract-ocr
+

@@ -167,3 +167,4 @@ class FaceRecognitionService:
 # Create a global instance
 face_service = FaceRecognitionService()
 
+

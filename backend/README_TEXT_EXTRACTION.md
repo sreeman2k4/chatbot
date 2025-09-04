@@ -232,3 +232,4 @@ To improve the text extraction service:
 3. Add support for more OCR engines
 4. Improve confidence scoring algorithms
 
+
